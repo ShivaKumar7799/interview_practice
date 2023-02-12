@@ -1,0 +1,17 @@
+.divContainer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.divContainer > div {
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 10px;
+}
+.second{
+  grid-column: 2/span 2;
+}
+.fourth{
+  grid-column: 1/span 2;
+}

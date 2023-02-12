@@ -1,8 +1,11 @@
 import React from 'react'
+import Read from './Read/Read'
 
 function CrudOperations() {
   return (
-    <div>CrudOperations</div>
+    <div>
+      <Read />
+    </div>
   )
 }
 
